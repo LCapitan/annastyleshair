@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<header>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" charset="utf-8"></script>
+  <script type="text/javascript" src="js/jquery.timepicker.js"></script>
+
+  <link rel="stylesheet" href="css/jquery-ui.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="css/jquery-ui.theme.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="css/jquery.timepicker.css" media="screen" title="no title" charset="utf-8">
+</header>
+
+<body>
+
+  <form id="booking-form" role="form" novalidate="" class="">
+    <div class="col-md-12">
+      <input type="text" id="booking_name" name="booking_name" class="form-control" placeholder="Name*" required="" data-validation-required-message="Please enter your name.">
+    </div>
+    <div class="col-md-12">
+      <input type="email" id="booking_email" name="booking_email" class="form-control" placeholder="Your E-mail*" required="" data-validation-required-message="Please enter your email address.">
+    </div>
+    <div class="col-md-12">
+      <input type="text" id="datepicker" name="booking_datepicker" class="hasDatePicker" placeholder="Date*">
+    </div>
+    <div class="col-md-12">
+      <input type="text" id="booking_timepicker" name="booking_timepicker" class="time" placeholder="Preffered Time*">
+    </div>
+    <div class="col-md-12 ">
+      <textarea class="form-control" id="booking_message"  name="booking_message" cols="30" rows="6" placeholder="Message*" required="" data-validation-required-message="Please enter your message."></textarea>
+    </div>
+    <div class="btn-container col-md-12 text-center submit">
+      <button type="submit" class=" wow bounceInLeft">Submit Now</button>
+        <!--<a href="#" class=" wow bounceInLeft" >Submit Now</a>-->
+    </div>
+</form>
+
+<script src="js/jquery-ui.js" charset="utf-8"></script>
+<script src="js/booking.js" charset="utf-8"></script>
+<script src="js/jqBootstrapValidation.js" charset="utf-8"></script>
+<script src="js/custom.js" charset="utf-8"></script>
+
+</body>
